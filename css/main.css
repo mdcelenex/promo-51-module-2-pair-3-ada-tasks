@@ -1,0 +1,27 @@
+
+.btn-tareas {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+
+  .aside {
+
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right:20px;
+
+  }
+
+
+main {
+    
+    display: flex;
+
+  }

@@ -1,27 +1,54 @@
 
+
+.h1{
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 3rem;
+}
+
+
+.aside{
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.form{
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+/* Para el formulario de Aside agregar */
+.form-agregar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Para alinear input y botón de form en línea */
+.buscar-container {
+  display: flex;
+  gap: 10px;
+}
+
+
 .btn-tareas {
-
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: cornflowerblue;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-
-
-  .aside {
-
-    flex-direction: column;
-    justify-content: space-around;
-    margin-right:20px;
-
-  }
-
-
-main {
-    
-    display: flex;
-
-  }
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

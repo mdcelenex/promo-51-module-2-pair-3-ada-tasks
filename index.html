@@ -6,41 +6,43 @@
     <title>Adatask</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+
+
+<body  style="background-color: #ffffff4f;"> 
     
- <header>
-    <h1>AdaTask</h1>
+ <header style="background-color: #007bff;">
+    <h1 class="h1">AdaTask</h1>
 </header>
 
 
 
-<main>   
+<main class="main">   
 
-
+    <!-- agregar tareas -->
     <aside class="aside">
-        <form>
-            <input  class="js-aside"type="text"  name="nombre" placeholder="Nueva tarea">
-            <button class="js-btn-tareas btn-tareas">Agregar</button> 
-        </form>
+      <form class="form-agregar">
+        
+        <input class="js-aside" type="text" name="nombre" placeholder="Nueva tarea">
+        <button class="js-btn-tareas btn-tareas" type="submit">Agregar</button> 
+
+      </form>
     </aside>
+  
     
+    <form class="form">
+      <!-- Contenedor para alinear horizontalmente input y botón -->
+      <div class="buscar-container">
+        
+        <input class="js-inputBuscar" type="text" name="nombre" placeholder="Ejemplo: Estudiar">
+        <button class="js-btn-Buscar btn-tareas" type="submit">Buscar</button>
 
-
-
-    <form>
-
-        <input  class="js-inputBuscar"type="text"  name="nombre" placeholder="Ejemplo: Estudiar">
-        <button class="js-btn-Buscar  btn-tareas">Buscar</button> 
-        <ul class="js-ul">
-
-        </ul>
-
+      </div>
+      
+      
+        <ul class="js-ul"></ul>
     </form>
-
-
-
-</main>
-
+  
+  </main>
 
 
 

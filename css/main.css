@@ -26,7 +26,10 @@
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-
+.tarea-completada {
+  text-decoration: line-through;
+  color: gray;
+}
 
 
 /* Para el formulario de Aside agregar */
